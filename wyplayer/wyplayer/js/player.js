@@ -385,7 +385,7 @@ else {
 		creat: {
 			album: function() {
 				var a = NeiCeList.length,
-					c = "";
+					c = "";	
 				$(".musicheader", $albumList).text(name + "(" + a + ")");
 				for (var b = 0; b < a; b++) c += '<li><i class="fa fa-angle-right"></i><span class="index">' + (b + 1) + '</span><span class="artist"></span>' + NeiCeList[b].song_album + " - " + NeiCeList[b].song_album1 + "</li>";
 				$(".list", $albumList).html("<ul>" + c + "</ul>").mCustomScrollbar();
