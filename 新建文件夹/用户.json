@@ -1,0 +1,478 @@
+{
+    "more": false, 
+    "playlist": [
+        {
+            "subscribers": [ ], 
+            "subscribed": false, 
+            "creator": {
+                "signature": "", 
+                "authority": 0, 
+                "defaultAvatar": false, 
+                "avatarImgId": 2113261348597122, 
+                "province": 610000, 
+                "authStatus": 0, 
+                "followed": false, 
+                "avatarUrl": "http://p4.music.126.net/07nJI5rVZPsr0Wonlv2xXA==/2113261348597122.jpg", 
+                "accountStatus": 0, 
+                "gender": 1, 
+                "city": 610100, 
+                "birthday": -2209017600000, 
+                "userId": 303438511, 
+                "userType": 0, 
+                "nickname": "wuto_", 
+                "description": "", 
+                "detailDescription": "", 
+                "backgroundImgId": 2002210674180199, 
+                "backgroundUrl": "http://p1.music.126.net/VTW4vsN08vwL3uSQqPyHqg==/2002210674180199.jpg", 
+                "mutual": false, 
+                "expertTags": null, 
+                "djStatus": 0, 
+                "vipType": 0, 
+                "remarkName": null
+            }, 
+            "artists": null, 
+            "tracks": null, 
+            "tags": [ ], 
+            "cloudTrackCount": 0, 
+            "subscribedCount": 0, 
+            "status": 0, 
+            "createTime": 1468389688183, 
+            "playCount": 26, 
+            "trackUpdateTime": 1480561889062, 
+            "specialType": 5, 
+            "privacy": 0, 
+            "newImported": false, 
+            "trackCount": 64, 
+            "highQuality": false, 
+            "updateTime": 1480528827251, 
+            "commentThreadId": "A_PL_0_420993286", 
+            "coverImgUrl": "http://p3.music.126.net/AQP-lbP6C4GBLha8SrnkcQ==/528865094211652.jpg", 
+            "coverImgId": 528865094211652, 
+            "totalDuration": 0, 
+            "userId": 303438511, 
+            "adType": 0, 
+            "trackNumberUpdateTime": 1480528827251, 
+            "description": null, 
+            "name": "wuto_喜欢的音乐", 
+            "id": 420993286
+        }, 
+        {
+            "subscribers": [ ], 
+            "subscribed": false, 
+            "creator": {
+                "signature": "", 
+                "authority": 0, 
+                "defaultAvatar": false, 
+                "avatarImgId": 2113261348597122, 
+                "province": 610000, 
+                "authStatus": 0, 
+                "followed": false, 
+                "avatarUrl": "http://p4.music.126.net/07nJI5rVZPsr0Wonlv2xXA==/2113261348597122.jpg", 
+                "accountStatus": 0, 
+                "gender": 1, 
+                "city": 610100, 
+                "birthday": -2209017600000, 
+                "userId": 303438511, 
+                "userType": 0, 
+                "nickname": "wuto_", 
+                "description": "", 
+                "detailDescription": "", 
+                "backgroundImgId": 2002210674180199, 
+                "backgroundUrl": "http://p1.music.126.net/VTW4vsN08vwL3uSQqPyHqg==/2002210674180199.jpg", 
+                "mutual": false, 
+                "expertTags": null, 
+                "djStatus": 0, 
+                "vipType": 0, 
+                "remarkName": null
+            }, 
+            "artists": null, 
+            "tracks": null, 
+            "tags": [ ], 
+            "cloudTrackCount": 0, 
+            "subscribedCount": 0, 
+            "status": 0, 
+            "createTime": 1470317079354, 
+            "playCount": 0, 
+            "trackUpdateTime": 1471431935745, 
+            "specialType": 0, 
+            "privacy": 0, 
+            "newImported": false, 
+            "trackCount": 1, 
+            "highQuality": false, 
+            "updateTime": 1471431935692, 
+            "commentThreadId": "A_PL_0_436907902", 
+            "coverImgUrl": "http://p3.music.126.net/9l6NP4MzLTyNtH_Jgw76bQ==/27487790708893.jpg", 
+            "coverImgId": 27487790708893, 
+            "totalDuration": 0, 
+            "userId": 303438511, 
+            "adType": 0, 
+            "trackNumberUpdateTime": 1471431935692, 
+            "description": null, 
+            "name": "宁静", 
+            "id": 436907902
+        }, 
+        {
+            "subscribers": [ ], 
+            "subscribed": true, 
+            "creator": {
+                "signature": "心存善念，才会途遇天使。P.S.最近工作特别忙，没时间做歌单了(╥﹏╥)", 
+                "authority": 0, 
+                "defaultAvatar": false, 
+                "avatarImgId": 18534467510939336, 
+                "province": 1000000, 
+                "authStatus": 0, 
+                "followed": false, 
+                "avatarUrl": "http://p3.music.126.net/-HuPIllfZsO7hWiquKAUgg==/18534467510939335.jpg", 
+                "accountStatus": 0, 
+                "gender": 2, 
+                "city": 1010000, 
+                "birthday": 728128074455, 
+                "userId": 93983257, 
+                "userType": 0, 
+                "nickname": "--苏麻离青--", 
+                "description": "", 
+                "detailDescription": "", 
+                "backgroundImgId": 1364493944310711, 
+                "backgroundUrl": "http://p1.music.126.net/i9A-bwrLTIkXsDvHN6YlIg==/1364493944310711.jpg", 
+                "mutual": false, 
+                "expertTags": [
+                    "华语", 
+                    "流行"
+                ], 
+                "djStatus": 10, 
+                "vipType": 0, 
+                "remarkName": null
+            }, 
+            "artists": null, 
+            "tracks": null, 
+            "tags": [
+                "华语", 
+                "流行", 
+                "快乐"
+            ], 
+            "cloudTrackCount": 0, 
+            "subscribedCount": 30865, 
+            "status": 0, 
+            "createTime": 1474699427035, 
+            "playCount": 2420908, 
+            "trackUpdateTime": 1480211496979, 
+            "specialType": 0, 
+            "privacy": 0, 
+            "newImported": false, 
+            "trackCount": 120, 
+            "highQuality": false, 
+            "updateTime": 1480211495382, 
+            "commentThreadId": "A_PL_0_471049373", 
+            "coverImgUrl": "http://p3.music.126.net/L5b54d-Z-8SI0GeRAt0OkQ==/18523472393649738.jpg", 
+            "coverImgId": 18523472393649736, 
+            "totalDuration": 0, 
+            "userId": 93983257, 
+            "adType": 0, 
+            "trackNumberUpdateTime": 1480211467993, 
+            "description": "盘点华语那些一听就心情愉快的甜歌(๑•̀ω•́๑)
+
+甜甜的，轻快的，朗朗上口的旋律，比较容易洗脑。
+虽然这样的歌被诟病为“口水歌”，不过经过一天忙碌的工作/学习，疲惫的我们需要一些轻快的旋律调节心情~
+轻快的甜歌可以帮助我们消除工作/学习紧张、减轻生活压力。(*^﹏^*)
+
+快来开启洗脑循环吧~ヽ(゜Q。)ノ
+
+封面人物：七七 微博：Duebass
+
+", 
+            "name": "华语‖盘点那些“洗脑”的甜歌", 
+            "id": 471049373, 
+            "coverImgId_str": "18523472393649738"
+        }, 
+        {
+            "subscribers": [ ], 
+            "subscribed": true, 
+            "creator": {
+                "signature": "( •̀∀•́ )", 
+                "authority": 0, 
+                "defaultAvatar": false, 
+                "avatarImgId": 18637821602553050, 
+                "province": 500000, 
+                "authStatus": 0, 
+                "followed": false, 
+                "avatarUrl": "http://p3.music.126.net/0iYI3ii57B79IWEAadRKEA==/18637821602553050.jpg", 
+                "accountStatus": 0, 
+                "gender": 2, 
+                "city": 500101, 
+                "birthday": 1412265600000, 
+                "userId": 80110927, 
+                "userType": 0, 
+                "nickname": "衍路好拾光", 
+                "description": "", 
+                "detailDescription": "", 
+                "backgroundImgId": 18771962021252280, 
+                "backgroundUrl": "http://p1.music.126.net/MoWxS7N3bX-O_LuO1LVxeQ==/18771962021252279.jpg", 
+                "mutual": false, 
+                "expertTags": null, 
+                "djStatus": 0, 
+                "vipType": 0, 
+                "remarkName": null
+            }, 
+            "artists": null, 
+            "tracks": null, 
+            "tags": [
+                "华语", 
+                "流行", 
+                "治愈"
+            ], 
+            "cloudTrackCount": 0, 
+            "subscribedCount": 70446, 
+            "status": 0, 
+            "createTime": 1461761069207, 
+            "playCount": 5468828, 
+            "trackUpdateTime": 1480579052907, 
+            "specialType": 0, 
+            "privacy": 0, 
+            "newImported": false, 
+            "trackCount": 199, 
+            "highQuality": false, 
+            "updateTime": 1474865981219, 
+            "commentThreadId": "A_PL_0_371047542", 
+            "coverImgUrl": "http://p3.music.126.net/c-XKlem7fWF0sBVyTncH9A==/1380986612434915.jpg", 
+            "coverImgId": 1380986612434915, 
+            "totalDuration": 0, 
+            "userId": 80110927, 
+            "adType": 0, 
+            "trackNumberUpdateTime": 1474865981219, 
+            "description": "什么语言的歌都听
+什么风格的歌都听
+而心烦气躁时
+就点进华语歌单
+找几首自己熟悉的歌放着
+听着听着就哼起来
+哼着哼着就静下来
+
+", 
+            "name": "【华语】心静不下来，就用中文歌治愈", 
+            "id": 371047542
+        }, 
+        {
+            "subscribers": [ ], 
+            "subscribed": true, 
+            "creator": {
+                "signature": "I am otaku freak, I feed myself bags of salt", 
+                "authority": 0, 
+                "defaultAvatar": false, 
+                "avatarImgId": 6667438511936134, 
+                "province": 110000, 
+                "authStatus": 0, 
+                "followed": false, 
+                "avatarUrl": "http://p3.music.126.net/wQQaqMsPHV8fFXwjwHzBMg==/6667438511936134.jpg", 
+                "accountStatus": 0, 
+                "gender": 1, 
+                "city": 110101, 
+                "birthday": 634924800000, 
+                "userId": 9039806, 
+                "userType": 0, 
+                "nickname": "宅男怪咖", 
+                "description": "", 
+                "detailDescription": "", 
+                "backgroundImgId": 3229265651415805, 
+                "backgroundUrl": "http://p1.music.126.net/wu2BinU_3hQqlC9LJ4GmGA==/3229265651415805.jpg", 
+                "mutual": false, 
+                "expertTags": null, 
+                "djStatus": 0, 
+                "vipType": 0, 
+                "remarkName": null
+            }, 
+            "artists": null, 
+            "tracks": null, 
+            "tags": [
+                "欧美", 
+                "兴奋", 
+                "游戏"
+            ], 
+            "cloudTrackCount": 0, 
+            "subscribedCount": 212939, 
+            "status": 0, 
+            "createTime": 1394206775162, 
+            "playCount": 6502271, 
+            "trackUpdateTime": 1479713217398, 
+            "specialType": 0, 
+            "privacy": 0, 
+            "newImported": false, 
+            "trackCount": 51, 
+            "highQuality": false, 
+            "updateTime": 1480766042529, 
+            "commentThreadId": "A_PL_0_9614323", 
+            "coverImgUrl": "http://p3.music.126.net/tGHU62DTszbFQ37W9qPHcg==/2002210674180197.jpg", 
+            "coverImgId": 2002210674180197, 
+            "totalDuration": 0, 
+            "userId": 9039806, 
+            "adType": 0, 
+            "trackNumberUpdateTime": 1474131155170, 
+            "description": "无限超神你值得拥有", 
+            "name": "英雄联盟LOL 战歌 （神级BGM）", 
+            "id": 9614323
+        }, 
+        {
+            "subscribers": [ ], 
+            "subscribed": true, 
+            "creator": {
+                "signature": "想做一张好单，可惜思路经常便秘。粉丝后援团Q群号： 338606510，欢迎支持起子，喜欢听歌的朋友一起聊天~", 
+                "authority": 0, 
+                "defaultAvatar": false, 
+                "avatarImgId": 3284241235740630, 
+                "province": 110000, 
+                "authStatus": 0, 
+                "followed": false, 
+                "avatarUrl": "http://p4.music.126.net/fraq_2_kxZc2VzsZdZtBOQ==/3284241235740630.jpg", 
+                "accountStatus": 0, 
+                "gender": 2, 
+                "city": 110101, 
+                "birthday": -1510300800000, 
+                "userId": 19299028, 
+                "userType": 0, 
+                "nickname": "螺丝起子", 
+                "description": "", 
+                "detailDescription": "", 
+                "backgroundImgId": 18582846021338480, 
+                "backgroundUrl": "http://p1.music.126.net/esdZCGXCS3WLndUCWkKq8g==/18582846021338481.jpg", 
+                "mutual": false, 
+                "expertTags": [
+                    "影视原声", 
+                    "流行", 
+                    "欧美"
+                ], 
+                "djStatus": 10, 
+                "vipType": 10, 
+                "remarkName": null
+            }, 
+            "artists": null, 
+            "tracks": null, 
+            "tags": [
+                "影视原声", 
+                "80后", 
+                "经典"
+            ], 
+            "cloudTrackCount": 0, 
+            "subscribedCount": 213014, 
+            "status": 0, 
+            "createTime": 1465697974938, 
+            "playCount": 6304913, 
+            "trackUpdateTime": 1479896798824, 
+            "specialType": 0, 
+            "privacy": 0, 
+            "newImported": false, 
+            "trackCount": 67, 
+            "highQuality": false, 
+            "updateTime": 1478759242231, 
+            "commentThreadId": "A_PL_0_399723525", 
+            "coverImgUrl": "http://p3.music.126.net/sClBWvrfVDOijCMjJFhvpQ==/3420580690443803.jpg", 
+            "coverImgId": 3420580690443803, 
+            "totalDuration": 0, 
+            "userId": 19299028, 
+            "adType": 0, 
+            "trackNumberUpdateTime": 1478759242231, 
+            "description": "歌单大部分搬自知乎：有哪些被用烂的背景音乐？http://www.zhihu.com/question/39162734
+
+这些都是使用频率较高的BGM。歌单前半部分为玩坏，后半部分为用烂。这些BGM不仅仅出现在影视剧、广告、广播电台，现实生活中，商城、理发店、火车站、学校、图书馆也将这些歌深深玩坏了……
+（不孕不育祸害了班得瑞、克莱德曼和神秘园……）
+
+最近沉迷看斗鱼的马里奥污醒，皮革厂镇楼！
+
+1.Going home--商城赶人御用；
+2.Radetzky-Marsch--各大高校运动会御用；
+3.Snowdream--各大广播电台、送宾御用；
+4.Under the double eagle--激光打气球；
+5.William Tell Overture--跑马赌币机；
+6.Sabre Dance--不正常人类研究中心；
+7.American Patrol--各大马戏团；
+8.Toccata and Fugue in D minor, BWV565--吸血鬼出场必备；
+9.Just Blue--又到了动物交配的时候……
+10.Moonglow--天气预报、南航等等；
+11.Souvevirs d'Enfance--旅客朋友们，***站到了……
+12.Les premiers sourires de Vanessa--英语听力部分；
+13.Childhood Memory--各种治好了多年***病的好药；
+14.安妮的仙境--各类不孕不育、车站、地铁；
+15.The First Snowflakes--好吧，各大广告专毁班得瑞；
+16.Song from a Secret Garden--深夜谈话御用；
+17.Adagio--不孕不育；
+18.Aphrodite--百家讲坛、央视御用；
+19.月光の云海--继续深夜谈话、情感栏目；
+20.Mariage d'amour--您好，即将为您转接客服人员；
+21.秋日的私语--万用宝曲；
+22.菊次郎的夏天--湖南卫视、英语听力；
+23.kiss the rain--继续深夜栏目、不孕不育；
+24.Butterfly--80后的旱冰场及跳舞毯、跳舞机；
+25.Kissy Kissy--80后，旱冰场、小发廊；
+26.Barbie Girl--写不下了…", 
+            "name": "那些耳熟能详（被“用烂/玩坏”）的BGM", 
+            "id": 399723525
+        }, 
+        {
+            "subscribers": [ ], 
+            "subscribed": true, 
+            "creator": {
+                "signature": "我要当咖啡店的老板娘，在这之前请跟我处对象吧。", 
+                "authority": 0, 
+                "defaultAvatar": false, 
+                "avatarImgId": 109951162817921650, 
+                "province": 440000, 
+                "authStatus": 0, 
+                "followed": false, 
+                "avatarUrl": "http://p4.music.126.net/vwFU2janA7aJ5FiAkmmUJg==/109951162817921651.jpg", 
+                "accountStatus": 0, 
+                "gender": 2, 
+                "city": 440300, 
+                "birthday": 742233600000, 
+                "userId": 44256091, 
+                "userType": 0, 
+                "nickname": "肥肉啊肥肉", 
+                "description": "", 
+                "detailDescription": "", 
+                "backgroundImgId": 109951162815069760, 
+                "backgroundUrl": "http://p1.music.126.net/hDBRMXKPGitiOweFjXDMvQ==/109951162815069767.jpg", 
+                "mutual": false, 
+                "expertTags": [
+                    "华语", 
+                    "流行", 
+                    "欧美"
+                ], 
+                "djStatus": 10, 
+                "vipType": 0, 
+                "remarkName": null
+            }, 
+            "artists": null, 
+            "tracks": null, 
+            "tags": [
+                "华语", 
+                "清新"
+            ], 
+            "cloudTrackCount": 0, 
+            "subscribedCount": 17746, 
+            "status": 0, 
+            "createTime": 1468462167290, 
+            "playCount": 1762017, 
+            "trackUpdateTime": 1480343004812, 
+            "specialType": 0, 
+            "privacy": 0, 
+            "newImported": false, 
+            "trackCount": 34, 
+            "highQuality": false, 
+            "updateTime": 1473171280284, 
+            "commentThreadId": "A_PL_0_421492315", 
+            "coverImgUrl": "http://p3.music.126.net/0RGap0cCZqYq4HtykBP4oA==/1419469524620127.jpg", 
+            "coverImgId": 1419469524620127, 
+            "totalDuration": 0, 
+            "userId": 44256091, 
+            "adType": 0, 
+            "trackNumberUpdateTime": 1473171280284, 
+            "description": "你是冰川，是疾风，是瘫软在山谷中的云。
+你是通往北极的海，是海上卷起的泡沫，是泡沫中诞生的神。
+你是草原上的花，是花下的草原，是人类还在追求今生来世时，一块岩石与另一块岩石定下的死生契阔。
+你是迟迟不褪的黑夜，是久久逗留的天明。
+是安静风暴中的冰冷燃烧。你是日，月，星，辰。
+是上帝的有意为之，在那个地方所有事物都可以被祝愿。
+（文字by落落 封面：唐艺昕）", 
+            "name": "世界那么美，不如你好看", 
+            "id": 421492315
+        }
+    ], 
+    "code": 200
+}
