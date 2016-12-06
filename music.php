@@ -1,4 +1,5 @@
 <?php
+set_time_limit(0);
 /**
  * Created by PhpStorm.
  * User: Moon
@@ -250,7 +251,9 @@ function playlist_info1($playlist_id){
     foreach ($json2_arr["result"]["tracks"] as $value) {
         $music_id = $value["id"];
         $music_name= $value["name"];
-        $song_list = array("music_id"=>$music_id,"music_name"=> $music_name);
+        $music_mp3Url=music_info1($music_id);
+
+        $song_list = array("music_id"=>$music_id,"music_name"=> $music_name,"music_mp3Url"=>$music_mp3Url);
         // $song_list_info[$music_id]=$song_list;
         $song_list_info[$music_id]=$song_list;
     }
@@ -259,7 +262,17 @@ function playlist_info1($playlist_id){
 }
 // echo playlist_info1("371047542");
 
+//获取歌曲链接
+function music_info1($music_id){
+    $json3=get_music_info($music_id);
+    $json3_arr = json_decode($json3, true);
 
+
+
+
+    $id = $json3_arr["songs"][0]["mp3Url"];
+    return $id;
+}
 
 
 
