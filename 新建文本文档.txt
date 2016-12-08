@@ -14,7 +14,7 @@
 
 albumId-- song_name --songId  --replace
 		--song_id
-		-- song_list
+		
 id -- song_id -- length
 	--song_album
 
