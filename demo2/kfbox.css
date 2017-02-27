@@ -1,0 +1,110 @@
+
+
+/*kfbox*/
+.kfbox{position:fixed;top:50px;z-index:999;width:94px;}
+.kfbox .color1{background:#2ecc71;}
+.kfbox .color2{background:#e67e22;}
+.kfbox .color3{background:#e74c3c;}
+.kfbox .color4{background:#3498db;}
+.kfbox .color5{background:#1abc9c;}
+.kfbox .color6{background:#34495e;}
+.kfbox .color7{background:#fff;}
+.color1 a,.color2 a,.color3 a,.color4 a,.color5 a,.color6 a{color:#fff !important;}
+.kf_qq{background:url(images/uptop.png) no-repeat;}
+.kf_qq{height:80px; background-position:0 0; position:relative;}
+.kf_qq a{position:absolute;width:94px;height:80px;top:0;left:0;}
+.kf_diy{height:28px;margin-bottom:8px;font-size:14px;text-align:center;line-height:28px;background:#fff;border-radius:4px;box-shadow:0px 1px 1px 0px rgba(0,0,0,0.3);color:#666;}
+.kf_diy a{color:#666;}
+.kf_diy a:hover{text-decoration:none;}
+.kf_diy:hover{background:#8aa653}
+.kf_diy:hover a{color:#fff;}
+*html .kfbox{position: absolute;top:expression(eval(document.documentElement.scrollTop));}
+
+
+.kfbox {
+	color: #333;
+    font-family: "微软雅黑",Arial,Helvetica,sans-serif;
+    font-size: 12px;
+
+    right: 10px;
+}
+
+.kfbox * {
+    margin: 0;
+    padding: 0;
+    border: 0;
+
+	
+    font-family: "微软雅黑",Arial,Helvetica,sans-serif;
+    font-size: 14px;
+}
+
+
+
+
+
+
+.kf_qq {
+color: #333;
+    font-family: "微软雅黑",Arial,Helvetica,sans-serif;
+    font-size: 12px;
+
+    height: 80px;
+    background-position: 0 0;
+    position: relative;
+}
+.kf_qq {
+    background: url(images/uptop.png) no-repeat;
+}
+.kf_qq * {
+    margin: 0;
+    padding: 0;
+    border: 0;
+}
+
+
+.kf_qq a {
+
+color: #4b4b49;
+text-decoration: none;
+transition-duration: .4s,.5s;
+transition-property: background-color,color;
+transition-timing-function: ease,ease;
+
+
+    position: absolute;
+    width: 94px;
+    height: 80px;
+    top: 0;
+    left: 0;
+}
+
+
+
+
+
+
+.kf_diy {
+    height: 28px;
+    margin-bottom: 8px;
+    font-size: 14px;
+    text-align: center;
+    line-height: 28px;
+    background: #fff;
+    border-radius: 4px;
+    box-shadow: 0px 1px 1px 0px rgba(0,0,0,0.3);
+    color: #666;
+}
+.kf_diy * {
+    margin: 0;
+    padding: 0;
+    border: 0;
+}
+
+
+.kf_diy .fa {
+    display: inline-block;
+    font: normal normal normal 14px/1 FontAwesome;
+    font-size: inherit;
+    text-rendering: auto;
+}

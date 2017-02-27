@@ -1,0 +1,377 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>极客导航-程序员自己的导航</title>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <meta name="author" content="ellaliu" />
+    <meta name="keywords" content="极客导航ˇ程序员导航,程序猿导航,Android导航,IOS导航,Android网址导航,IOS程序员导航,IT导航,Android程序员导航,IOS程序员导航,Html5网址导航,前端导航,前端程序猿导航,码农导航,面试,设计导航网站">
+    <meta name="description" content="极客导航ˇ程序员导航,程序猿导航,Android导航,IOS导航,Android网址导航,IOS程序员导航,IT导航,Android程序员导航,IOS程序员导航,Html5网址导航,前端导航,前端程序猿导航,码农导航,面试,设计导航网站">
+    <link rel="shortcut icon" href="jk.ico">
+    <link type="text/css" rel="stylesheet"  href="css/reset.css">
+    <link type="text/css" rel="stylesheet"  href="css/xinbancommon.css">
+    <script type="text/javascript" src="script/jquery-1.12.3.min.js"></script>
+
+    <script type="text/javascript">
+
+        $(function(){
+            $("#search_list li").click(function(){
+                $(this).addClass("active");
+                $(this).siblings().removeClass("active");
+                $("#search_btn").val($(this).text());
+                $("#search_btn").attr("url",$(this).attr("url"));
+            });
+            $("#search_btn").click(function(){
+                var content = $("#search_content").val();
+                var url = $(this).attr("url")+content;
+                var $a =$("#linkTo");
+                $a[0].href=url;
+                $("span",$a).click();
+            });
+
+            $('#search_content').bind('keypress', function (event) {
+                if (event.keyCode == "13") {
+                    var content = $("#search_content").val();
+                    if(content == null){
+                        return;
+                    }
+                    var url = $("#search_btn").attr("url")+content;
+                    var $a =$("#linkTo");
+                    $a[0].href=url;
+                    $("span",$a).click();
+                }
+            });
+        });
+        //
+        //        $(document).ready(function () {
+        //            $(document).keyup(function (evnet) {
+        //                if (evnet.keyCode == '13') {
+        //                    var content = $("#search_content").val();
+        //                    var url = $(this).attr("url")+content;
+        //                    var $a =$("#linkTo");
+        //                    alert(url)
+        //                    $a[0].href=url;
+        //                }
+        //            });
+        //
+        //        });
+
+
+
+
+
+    </script>
+
+    <script>
+        var _hmt = _hmt || [];
+        (function() {
+            var hm = document.createElement("script");
+            hm.src = "//hm.baidu.com/hm.js?af56dfbc035c657de3388b6e9dde0d51";
+            var s = document.getElementsByTagName("script")[0];
+            s.parentNode.insertBefore(hm, s);
+        })();
+    </script>
+
+</head>
+<body>
+<a id="linkTo" target="_blank" style="display: none;"><span>极客导航</span></a>
+<div class="header">
+    <div class="body_width">
+        <span class="logo">极客导航</span>
+        <div class="menu_div">
+            <ul class="menu">
+                <li class=""><a href="index.html">Android</a></li>
+                <li class="active"><a href="ios.html">IOS</a></li>
+                <li class=""><a href="qianduan.html">前端</a></li>
+                <li class=""><a href="sheji.html">设计</a></li>
+                <li class=""><a href="mianshi.html">面试</a></li>
+                <li class=""><a href="wxtj.html">微信推荐</a></li>
+                <li class=""><a href="zxdh.html">最新导航</a></li>
+
+            </ul>
+        </div>
+    </div>
+</div>
+<div class="content body_width">
+    <div class="ofh">
+        <h1 style="float: right;color: #666666;margin-right: 10px;font-size: 10px"> 如果感觉网站不错:Ctrl+D 收藏</h1>
+        <div class="search_div"  style="height: 120px;">
+            <a  href="http://gold.xitu.io/welcome?utm_source=jikedaohang&utm_medium=banner&utm_content=gaoshou&utm_campaign=q3_website" target="_blank">
+
+                <img style="width: 200px;left: 105px;top:80px;height: 120px;" src="images/gold.png" alt="logo" ></a>
+            <div style="width: 75%">
+                <ul id="search_list" >
+                    <li class="active"  url="https://www.google.com/search?q=">谷歌</li>
+                    <li url="https://www.baidu.com/s?wd=">百度</li>
+                    <li url="http://cn.bing.com/search?q=">必应</li>
+                    <li url="http://fanyi.baidu.com/?aldtype=16047#en/zh/">翻译</li>
+                    <li url="https://github.com/search?utf8=✓&q=">Github</li>
+                    <li url="http://music.baidu.com/search?key=" >音乐</li>
+                    <li url="http://image.baidu.com/search/index?tn=baiduimage&word=">图片</li>
+                </ul>
+                <div>
+                    <input type="text" id="search_content" placeholder="请输入搜索内容（请查看源代码）" />
+                    <input id="search_btn" type="button" url="https://www.google.com/search?q=" value="谷歌" />
+
+                </div>
+
+            </div>
+        </div>
+
+        <div class="ofh">
+            <div class="left">
+                <ul class="nav">
+                    <li class="active"><a href="#part1">常用网站</a></li>
+                    <li><a href="#part2">工具大全</a></li>
+                    <li><a href="#part3">经典博客</a></li>
+                    <li><a href="#part4">进阶之路</a></li>
+                    <li><a href="#part5">源码下载</a></li>
+                    <li><a href="#part6">跳槽恋爱</a></li>
+                    <li><a href="#part7">创业社区</a></li>
+                    <li class="last"><a href="#part8">其他</a></li>
+                </ul>
+                <a id="part1" style="height: 60px;display: block;margin-top: -90px;"></a>
+            </div>
+            <div class="right">
+                <ul class="info">
+                    <li>
+
+                        <h2 class="first" >常用网站</h2>
+                        <div>
+                            <span><a href="https://www.google.com/"  target="_blank">Google</a></span>
+                            <span><a href="https://www.baidu.com/"  target="_blank">百度</a></span>
+                            <span><a href="http://www.github.com/"  target="_blank">Github</a></span>
+                            <span><a href="http://stackoverflow.com/"  target="_blank">Stackoverflow</a></span>
+                            <span><a href="https://segmentfault.com/t/ios"  target="_blank">Segmentfault</a></span>
+                            <span><a href="http://www.oschina.net/"  target="_blank">开源中国</a></span>
+                            <span><a href="http://www.csdn.net/"  target="_blank">Csdn</a></span>
+                            <span><a style="color: #FF99CC" href="http://gold.xitu.io/welcome?utm_source=jikedaohang&utm_medium=word&utm_content=juejin&utm_campaign=q3_website" target="_blank">掘金</a></span>
+                            <span><a href="http://www.cocoachina.com/"  target="_blank">CocoaChina</a></span>
+                            <span><a href="http://v2ex.com/go/idev"  target="_blank">v2ex</a></span>
+                            <span><a href="https://developer.apple.com/ios/"  target="_blank">IOSdev</a></span>
+                            <span><a href="https://swift.org/"  target="_blank">swift官方站</a></span>
+                            <span><a href="https://developer.apple.com/swift/"  target="_blank">Swift官方开发指南</a></span>
+                            <span><a href="http://swiftdoc.org/"  target="_blank">Swift文档</a></span>
+                            <span><a href="http://www.swiftvip.cn/guide/"  target="_blank">Swift中文版</a></span>
+                            <span><a href="http://www.swiftmi.com/"  target="_blank">swift迷</a></span>
+                            <span><a href="http://www.kancloud.cn/digest/ios-mac-study/84557"  target="_blank">IOS学习资料</a></span>
+                            <span><a href="http://iosdevweekly.com/"  target="_blank">IOS开发周报</a></span>
+                            <span><a href="https://idmsa.apple.com/IDMSWebAuth/login.html?path=%2F%2Fcontact%2Fapp-store%2F%3Ftopic%3Dexpedite&appIdKey=891bd3417a7776362562d2197f89480a8547b108fd934911bcbea0110d07f757"  target="_blank">审核加急</a></span>
+                            <span><a href="http://objccn.io/"  target="_blank">obc中国</a></span>
+                            <span><a href="http://www.kaka12345.net/"  target="_blank">美女写真</a></span>
+                        </div>
+                        <a id="part2" style="height: 60px;display: block;margin-top: -60px;"></a>
+                    </li>
+
+
+                    <li>
+                        <h2 >工具大全</h2>
+                        <div>
+                            <span><a style="color: #00a21b" href="http://www.agent-nydus.com/a?a=qJOlofqu" target="_blank">去国外看看</a></span>
+                            <span><a href="http://fanyi.baidu.com/?aldtype=16047#auto/zh/"  target="_blank">翻译</a></span>
+                            <span><a href="http://www.bejson.com/" >Bejson</a></span>
+                            <span><a href="https://swiftlang.ng.bluemix.net/#/repl" >Swift在线调试</a></span>
+                            <span><a href="http://rgb.phpddt.com/" target="_blank">颜色转换</a></span>
+                            <span><a href="http://tool.lu/regex/"  target="_blank">正则匹配</a></span>
+                            <span><a href="http://www.iconfont.cn/"  target="_blank">APP图片查询</a></span>
+                            <span><a href="http://romannurik.github.io/AndroidAssetStudio/"  target="_blank">图标生成工具</a></span>
+                            <span><a href="https://www.genymotion.com/"  target="_blank">模拟器下载</a></span>
+                            <span><a href="http://tool.lu/base64image/"  target="_blank">图片Base64编码</a></span>
+                            <span><a href="http://tool.oschina.net/hexconvert"  target="_blank">进制转换</a></span>
+                            <span><a href="http://tool.chinaz.com/Tools/unixtime.aspx"  target="_blank">时间转换</a></span>
+                            <span><a href="http://tool.lu/sql/"  target="_blank">sql语句</a></span>
+                            <span><a href="http://www.ip138.com/"  target="_blank">IP查询</a></span>
+                            <span><a href="http://exmail.qq.com/login"  target="_blank">腾讯企业邮</a></span>
+                            <span><a href="https://mail.google.com/mail/"  target="_blank">谷歌邮箱</a></span>
+                            <span><a href="http://mail.163.com/"  target="_blank">网易邮箱</a></span>
+                            <span><a href="http://devdocs.io/"  target="_blank">在线API</a></span>
+                            <span><a href="http://www.cockos.com/licecap/"  target="_blank">GIF录制</a></span>
+                            <span><a href="https://github.com/sqlitebrowser/sqlitebrowser"  target="_blank">SQL可视化</a></span>
+                        </div>
+                        <a id="part3" style="height: 60px;display: block;margin-top: -60px;"></a>
+                    </li>
+                    <li>
+                        <h2>经典博客</h2>
+                        <div>
+
+
+                            <span><a href="http://onevcat.com/"  target="_blank">王巍</a></span>
+                            <span><a href="http://www.cnblogs.com/wendingding/"  target="_blank">文顶顶</a></span>
+                            <span><a href="http://beyondvincent.com/archives/"  target="_blank">破船之家</a></span>
+                            <span><a href="http://foggry.com/blog/archives/"  target="_blank">王中周</a></span>
+                            <span><a href="http://joeyio.com/"  target="_blank">代码手艺工人</a></span>
+                            <span><a href="http://blog.devtang.com/"  target="_blank">唐巧</a></span>
+                            <span><a href="http://nianxi.net/"  target="_blank">程序媛念茜</a></span>
+                            <span><a href="http://www.jianshu.com/collection/5be41e88940c"  target="_blank">南栀倾寒</a></span>
+                            <span><a href="http://zhowkev.in"  target="_blank">Kevin</a></span>
+                            <span><a href="http://www.jianshu.com/collection/31622a1d4959"  target="_blank">IOS-Swift</a></span>
+                            <span><a href="http://jamztang.com"  target="_blank">James Tang</a></span>
+                            <span><a href="http://suyuzhang.com/"  target="_blank">Suyu Zhang</a></span>
+                            <span><a href="http://lexrus.com/"  target="_blank">Lex Tang</a></span>
+                            <span><a href="http://blog.xcodev.com"  target="_blank">Xcode Dev</a></span>
+                            <span><a href="http://wufawei.com/"  target="_blank">wufawei</a></span>
+                            <span><a href="http://www.xiangwangfeng.com"  target="_blank">xiangwangfeng</a></span>
+                            <span><a href="http://casatwy.com"  target="_blank">Casa Taloyum</a></span>
+                            <span><a href="http://www.dailymotion.com"  target="_blank">Olivier Poitrey</a></span>
+                            <span><a href="http://www.sunsetlakesoftware.com"  target="_blank">Brad Larson</a></span>
+                            <span><a href="http://www.jessesquires.com"  target="_blank">Jesse Squires</a></span>
+                            <span><a href="http://charcoaldesign.co.uk"  target="_blank">Nick Lockwood</a></span>
+                            <span><a href="http://JeffVerkoeyen.com/"  target="_blank">Jeff Verkoeyen</a></span>
+                            <span><a href="http://tech.meituan.com/"  target="_blank">美团技术博客</a></span>
+
+
+                        </div>
+                        <a id="part4" style="height: 60px;display: block;margin-top: -60px;"></a>
+                    </li>
+
+                    <li>
+                        <h2 >进阶之路</h2>
+
+                        <div>
+                            <span><a href="http://www.imooc.com/course/list?c=ios"  target="_blank">慕课网</a></span>
+                            <span><a href="http://www.jikexueyuan.com/course/ios/"  target="_blank">极客学院</a></span>
+                            <span><a href="https://ke.qq.com/course/list?mt=1001&st=2003&tt=3022"  target="_blank">腾讯课堂</a></span>
+                            <span><a href="http://study.163.com/find.htm#/courselist?ct=9"  target="_blank">网易云课堂</a></span>
+                            <span><a href="http://mooc.guokr.com/career/?dept_id=75&order=hot"  target="_blank">mocc学院</a></span>
+                            <span><a href="http://www.maiziedu.com/course/ios/"  target="_blank">麦子学院</a></span>
+                            <span><a href="http://guides.codepath.com/ios"  target="_blank">国外学习网站</a></span>
+                            <span><a href="http://www.liaoxuefeng.com/wiki/0013739516305929606dd18361248578c67b8067c8c017b000/"  target="_blank">Git学习</a></span>
+                            <span><a href="http://www.jianshu.com/p/1e402922ee32"  target="_blank">markdown用法</a></span>
+
+                        </div>
+                        <a id="part5" style="height: 60px;display: block;margin-top: -60px;"></a>
+                    </li>
+
+                    <li>
+                        <h2>源码下载</h2>
+                        <div>
+
+                            <span><a href="http://www.akaifa.com/code"  target="_blank">爱开发</a></span>
+                            <span><a href="http://code4app.com/forum-2-1.html"  target="_blank">Code4App</a></span>
+                            <span><a href="http://ios.b2mp.cn/"  target="_blank">IOS走马观花</a></span>
+                            <span><a href="http://www.appcoda.com/"  target="_blank">Appcoda</a></span>
+                            <span><a href="http://ui4app.com/"  target="_blank">UI4App</a></span>
+                            <span><a href="https://www.cocoacontrols.com/"  target="_blank">cocoacontrols</a></span>
+                            <span><a href="https://github.com/Tim9Liu9/TimLiu-iOS"  target="_blank">海量开源项目</a></span>
+                            <span><a href="http://code.cocoachina.com/"  target="_blank">cocochina code</a></span>
+                        </div>
+                        <a id="part6" style="height: 60px;display: block;margin-top: -60px;"></a>
+                    </li>
+                    <li>
+                        <h2 >跳槽恋爱</h2>
+                        <div>
+                            <span><a href="http://www.nowcoder.com/contestRoom"  target="_blank">牛客网</a></span>
+                            <span><a href="http://www.zhaopin.com/"  target="_blank">智联招聘</a></span>
+                            <span><a href="http://www.51job.com/"  target="_blank">前程无忧</a></span>
+                            <span><a href="http://www.lagou.com/"  target="_blank">拉勾网</a></span>
+                            <span><a href="https://www.liepin.com/"  target="_blank">猎聘网</a></span>
+                            <span><a href="http://www.chinahr.com/tianjin/"  target="_blank">中华英才网</a></span>
+                            <span><a href="http://blog.jobbole.com/"  target="_blank">伯乐在线</a></span>
+                            <span><a href="http://www.dajie.com/"  target="_blank">大街网</a></span>
+                            <span><a href="http://job.csdn.net/"  target="_blank">csdn招聘</a></span>
+                            <span><a href="http://www.neitui.me/"  target="_blank">内推网</a></span>
+                            <span><a href="https://100offer.com/"  target="_blank">100offer</a></span>
+                            <span><a href="http://www.wealink.com/"  target="_blank">若林网</a></span>
+                            <span><a href="http://www.zhenai.com/"  target="_blank">珍爱网</a></span>
+                            <span><a href="http://www.vipbaihe.com/"  target="_blank">百合网</a></span>
+                            <span><a href="http://www.youyuan.com/"  target="_blank">有缘网</a></span>
+                            <span><a href="http://www.jiayuan.com/"  target="_blank">世纪佳缘</a></span>
+                        </div>
+                        <a id="part7" style="height: 60px;display: block;margin-top: -60px;"></a>
+                    </li>
+                    <li>
+                        <h2 >创业社区</h2>
+                        <div>
+                            <span><a href="http://geekniu.com/"  target="_blank">极牛</a></span>
+                            <span><a href="http://www.ycpai.com/default.html"  target="_blank">缘创派</a></span>
+                            <span><a href="http://www.cyzone.cn/"  target="_blank">创业邦</a></span>
+                            <span><a href="http://www.yixieshi.com/"  target="_blank">互联网一些事</a></span>
+                            <span><a href="https://mart.coding.net/projects"  target="_blank">码市</a></span>
+                            <span><a href="http://shixian.com/"  target="_blank">实现</a></span>
+                            <span><a href="http://tieba.baidu.com/"  target="_blank">百度贴吧</a></span>
+                            <span><a href="http://www.tianya.cn/"  target="_blank">天涯</a></span>
+                            <span><a href="http://www.zhihu.com/"  target="_blank">知乎</a></span>
+                            <span><a href="http://www.guokr.com/"  target="_blank">果壳</a></span>
+                            <span><a href="http://www.infoq.com/"  target="_blank">infoQ</a></span>
+                            <span><a href="http://www.iheima.com/"  target="_blank">i黑马</a></span>
+                            <span><a href="http://36kr.com/"  target="_blank">36kr</a></span>
+                            <span><a href="http://cy.ncss.org.cn/"  target="_blank">大学生创业网</a></span>
+                            <span><a href="https://www.itjuzi.com/"  target="_blank">it桔子</a></span>
+                            <span><a href="http://www.iyiou.com/"  target="_blank">亿欧网</a></span>
+                            <span><a href="http://www.geekpark.net"  target="_blank">极客公园</a></span>
+                            <span><a href="https://www.juhe.cn/"  target="_blank">聚合接口</a></span>
+                        </div>
+                        <a id="part8" style="height: 60px;display: block;margin-top: -60px;"></a>
+                    </li>
+                    <li>
+                        <h2 >其他</h2>
+                        <div>
+                            <span><a href="http://www.zhuangbi.info"  target="_blank">装逼图片</a></span>
+                            <span><a href="http://www.bibb.cn"  target="_blank">装逼宝典</a></span>
+                            <span><a href="http://www.lovepua.com"  target="_blank">把妹技术</a></span>
+                            <span><a href="https://www.calm.com"  target="_blank">减压网站</a></span>
+                            <span><a href="http://zhidao.baidu.com/s/daily/2013-11-24/1387540950.html"  target="_blank">注意颈椎</a></span>
+                            <span><a href="http://www.muscles.com.cn"  target="_blank">别忘锻炼</a></span>
+
+                            <span><a href="http://www.php100.com/html/webkaifa/Linux/2009/1106/3485.html"  target="_blank">linux命令大全</a></span>
+                            <span><a href="https://coding.net/"  target="_blank">代码托管</a></span>
+                            <span><a href="http://www.ubuuk.com/"  target="_blank">有吧设计</a></span>
+
+                            <span><a href="http://www.umeng.com/"  target="_blank">友盟</a></span>
+                            <span><a href="http://www.mob.com/"  target="_blank">ShareSdk</a></span>
+                            <span><a href="https://open.weixin.qq.com/"  target="_blank">微信开发平台</a></span>
+                            <span><a href="http://lbs.amap.com/"  target="_blank">高德地图API</a></span>
+                            <span><a href="http://lbsyun.baidu.com/"  target="_blank">百度地图API</a></span>
+                            <span><a   target="_blank">查看网页源代码</a></span>
+
+                        </div>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </div>
+</div>
+<div class="footer">
+
+    <a href="jiuban.htm" target="_blank" class="link">打开旧版</a>
+    <span >|</span>
+    <a href="jiuban1.html" target="_blank" class="link">打开旧旧版</a>
+    <span>|</span>
+    <a href="about.htm" target="_blank" class="link">关于</a>
+    <span>|</span>
+    <a target="_blank" class="link">QQ群:569185172</a>
+</div>
+<div class="footer">
+    <p style="color: #FFFFFF">站点数据来自互联网，如有侵权，请告知</p>
+
+</div>
+<!--<div class="notice" style="display:block;">-->
+    <!--<a class="remove"></a>-->
+    <!--<h5>公众号哪家强</h5>-->
+    <!--<img style="width: 100px" height="100px" src="images/guolin.png" alt="">-->
+    <!--<img style="width: 100px" height="100px" src="images/hongyang.jpg" alt="">-->
+    <!--<h5>微信上面找郭翔</h5>-->
+<!--</div>-->
+<div class="notice" style="display:block;left:10px;">
+    <a class="remove"></a>
+    <h5>关注程序猿那点事</h5>
+    <img style="width: 100px" height="100px" src="images/chengxuyuan.jpg" alt="">
+    <h5>一个神奇的公众号</h5>
+
+
+</div>
+<!--每天查看源代码没准有福利哈-->
+<!--哈就是点-->
+<!--临时先用这个地址：cl哈mymecl哈me） 哈就是点的意思.........点啊 不懂吗。。。weixin.com 的点点啊-->
+<!--http://pan哈baidu哈com/s/1eSLj8hc  这个是翻墙工具,不过目前不太稳定,付费的请点击工具页"想去国外去看看"-->
+<!--yeyelu哈com-->
+<!--weibo search "沁人缘至尊神油"-->
+<!--http://weibo哈com/1024tianshi-->
+<!--http://m哈weibo哈cn/u/5974342257?from=1065095010&wm=5091_0008&sourceType=qq&uid=5129054932-->
+<!--wx_follow:zhiyiqie99-->
+<!--wx_follow:baozipuccc-->
+<!--wx_follow:Xhggws-->
+<!--看不懂的绝逼不是老司机-->
+
+
+</body>
+</html>
